@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/register": "^7.4.4",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "8.0.5",
     "css-modules-require-hook": "^4.2.3",
     "dom-parser": "^0.1.6",
     "html-react-parser": "^0.7.1",
