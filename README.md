@@ -40,12 +40,13 @@ $ yarn add react-router-dom
 $ yarn add clean-webpack-plugin --dev
 $ yarn add webpack-dev-middleware --dev
 $ yarn add webpack-hot-middleware --dev
-$ yarn add babel-loader
+$ yarn add babel-loader@8.0.5
 $ yarn add @babel/register
 $ yarn add css-modules-require-hook
 $ yarn add dom-parser
 $ yarn add html-react-parser
 ```
+> WARNING: Before install the packages above, you must check if the package need to install was already installed in the folder `node_modules`, if yes, you must add the version number as suffix, just like `babel-loader@8.0.5` above.
 
 ## Additional config in package.json
 Just enable the react tag in babel for server. 
